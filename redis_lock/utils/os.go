@@ -20,5 +20,6 @@ func GetCurrentGoroutineID() string {
 }
 
 func GetProcessAndGoroutineIDStr() string {
+	//进程id_协程id
 	return fmt.Sprintf("%s_%s", GetCurrentProcessID(), GetCurrentGoroutineID())
 }
